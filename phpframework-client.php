@@ -113,8 +113,8 @@ function festore ($phpFrameWork) {
 }
 
 function flag (string $selector) : string {
-    return $selector.'::after {
-        content: '';
+    echo $selector.'::after {
+        content: "";
         position: absolute;
         bottom: -1px;
         left: 50%;
