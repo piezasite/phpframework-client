@@ -98,3 +98,16 @@ function freelancer ($phpFrameWork) {
         .'|footer|a')
     );
 }
+
+function festore ($phpFrameWork) {
+    $phpFrameWork->pagina (
+
+        'FrontEndStore',
+
+        head: $phpFrameWork->multiUso ('style|'.$phpFrameWork->multiUso(':root|--primario: #9C27B0;
+        --primarioOscuro: #89119D;--secundario: #FFCE00;secundarioOscuro: rgb(233,287,2);
+        --blanco: #FFF;--negro: #000;--fuentePrincipal: \'Staatliches\', cursive;
+        |d').'|style|a')
+
+    );
+}
