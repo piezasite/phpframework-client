@@ -44,3 +44,12 @@ phpframework('!DOCTYPE html|c');
 </body>
 </html>
 ```
+
+## also
+
+```
+phpframework('/api/tablas'); 
+freelancer(); #phpFrameWork require , not included
+festore(); #phpFrameWork require , not included
+flag('selector');
+```
