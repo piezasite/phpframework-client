@@ -38,14 +38,14 @@ function freelancer ($phpFrameWork) {
                 .'
             |nav|a'
             ).$phpFrameWork->multiUso('section|'.
-            $phpFrameWork->multiUso('h2|Dise'.$phpFrameWork->multiUso('n|e').'o y Desarrollo Web FrontEnd|h2|a').
+            $phpFrameWork->multiUso('h2|FullStack LAMP|h2|a').
             $phpFrameWork->multiUso('p|Albuquerque, NM|p|a')
         .'|section|a'
         ).
         $phpFrameWork->multiUso('main|'.
             $phpFrameWork->multiUso('h2|Mis Servicios|h2|a').
             $phpFrameWork->multiUso('section|'.
-                $phpFrameWork->multiUso('h3|Dise'.$phpFrameWork->multiUso('n|e').'o Web|h3|a').
+                $phpFrameWork->multiUso('h3|Dise'.$phpFrameWork->multiUso('n|e').'o FrontEnd|h3|a').
                 $phpFrameWork->multiUso('p|
                     En el ecosistema LAMP, el diseño no es solo estética; es la interfaz de usuario (UI) que se comunica con nuestro backend. 
                     Se centra en la estructura visual y la experiencia del usuario (UX).
@@ -56,7 +56,7 @@ function freelancer ($phpFrameWork) {
                 |p|a')
             .'|section|a').
             $phpFrameWork->multiUso('section|'.
-                $phpFrameWork->multiUso('h3|Aplicaciones Web|h3|a').
+                $phpFrameWork->multiUso('h3|Aplicaciones BackEnd|h3|a').
                 $phpFrameWork->multiUso('p|
                     Aquí es donde el stack LAMP brilla por su capacidad de cómputo y persistencia de datos. A diferencia de un sitio estático, 
                     una aplicación web gestiona lógica de negocio compleja y estados de usuario.
