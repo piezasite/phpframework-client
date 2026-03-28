@@ -112,7 +112,7 @@ function festore ($phpFrameWork) {
     );
 }
 
-function flag (string $selector) : string {
+function flag (string $selector) {
     echo $selector.'::after {
         content: "";
         position: absolute;
