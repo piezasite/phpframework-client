@@ -25,7 +25,7 @@ phpframework('!DOCTYPE html|c');
 <body>
 
     <header>
-        <?php phpframework('h1|phpFrameWork-Client|h1|a'); ?>
+        <?php phpframework('tricolor'); phpframework('h1|phpFrameWork-Client|h1|a'); ?>
     </header>
 
     <main>
