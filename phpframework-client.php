@@ -1,5 +1,5 @@
 <?php
-function phpframework (string $create_get)  {
+function phpframework (string $create_get,bool $print=true)  {
 
     // 1. Inicializas
     $ch = curl_init('https://phpframe.work/'.urlencode($create_get));
@@ -13,8 +13,12 @@ function phpframework (string $create_get)  {
     // 4. Cierras
     curl_close($ch);
 
-    // --- CÓMO OBTENERLA ---
-    echo $res; // Esto imprimirá el contenido puro (HTML o JSON)
+    if ($print) {
+        // --- CÓMO OBTENERLA ---
+        echo $res; // Esto imprimirá el contenido puro (HTML o JSON)
+    } else {
+        return $res;
+    }
 
 }
 
