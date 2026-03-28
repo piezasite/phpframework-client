@@ -111,3 +111,16 @@ function festore ($phpFrameWork) {
 
     );
 }
+
+function flag (string $selector) : string {
+    return $selector.'::after {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 2px;
+        background: linear-gradient(to right, #15803d 33%, #f8fafc 33%, #f8fafc 66%, #b91c1c 66%);
+    }';
+}
