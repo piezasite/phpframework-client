@@ -30,6 +30,7 @@ function freelancer ($phpFrameWork) {
         head:'<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <style>'.
             $phpFrameWork->multiUso('.btn-whatsapp,a|text-decoration:none;color:gold;|d').
+            $phpFrameWork->multiUso('h1|text-align:center;|d').
         '</style>',
         body:$phpFrameWork->multiUso(
             'nav|
@@ -112,15 +113,28 @@ function festore ($phpFrameWork) {
     );
 }
 
-function flag (string $selector) {
-    echo $selector.'::after {
-        content: "";
-        position: absolute;
-        bottom: -1px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 60px;
-        height: 2px;
-        background: linear-gradient(to right, #15803d 33%, #f8fafc 33%, #f8fafc 66%, #b91c1c 66%);
-    }';
+function flag (string $selector,$print=true) {
+    if($print) {
+        echo $selector.'::after {
+            content: "";
+            position: absolute;
+            bottom: -1px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 2px;
+            background: linear-gradient(to right, #15803d 33%, #f8fafc 33%, #f8fafc 66%, #b91c1c 66%);
+        }';
+    } else {
+        return $selector.'::after {
+            content: "";
+            position: absolute;
+            bottom: -1px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 2px;
+            background: linear-gradient(to right, #15803d 33%, #f8fafc 33%, #f8fafc 66%, #b91c1c 66%);
+        }';
+    }
 }
