@@ -38,7 +38,7 @@ function freelancer ($phpFrameWork) {
                 .'
             |nav|a'
             ).$phpFrameWork->multiUso('section|'.
-            $phpFrameWork->multiUso('h2|FullStack LAMP|h2|a').
+            $phpFrameWork->multiUso('h2|FullLAMpStack|h2|a').
             $phpFrameWork->multiUso('p|Albuquerque, NM|p|a')
         .'|section|a'
         ).
